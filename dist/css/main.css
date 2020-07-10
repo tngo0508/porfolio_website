@@ -56,14 +56,14 @@
       height: 250px;
       background: url("../img/portrait_resize.jpg");
       border-radius: 50%;
-      border: solid 5px #ee1c25; }
+      border: solid 5px #f58d74; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #081c63; }
+      color: #5664af; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -75,7 +75,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #081c63; }
+      color: #5664af; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -88,6 +88,36 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+  .lg-heading {
+    margin-bottom: 1rem; }
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show,
+    div.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px; }
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("../img/portrait_resize_small.jpg");
+      width: 150px;
+      height: 143px; } }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; } }
 
 * {
   box-sizing: border-box; }
@@ -156,6 +186,8 @@ main {
     color: #4267b2; }
   main .linkedin-icon {
     color: #2867b2; }
+  main .google-icon {
+    color: #7fabf3; }
   main#home {
     overflow: hidden; }
     main#home h1 {

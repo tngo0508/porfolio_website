@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -75,6 +76,10 @@ main {
 
   .linkedin-icon {
     color: #2867b2;
+  }
+
+  .google-icon {
+    color: #7fabf3;
   }
 
   &#home {

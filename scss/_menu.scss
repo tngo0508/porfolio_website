@@ -94,7 +94,7 @@
       height: 250px;
       background: url("../img/portrait_resize.jpg");
       border-radius: 50%;
-      border: solid 5px #ee1c25;
+      border: solid 5px $secondary-color;
     }
   }
 
@@ -108,7 +108,7 @@
     }
 
     &.current > a {
-      color: #081c63;
+      color: #5664af;
     }
   }
 
@@ -124,7 +124,7 @@
     @include easeOut;
 
     &:hover {
-      color: #081c63;
+      color: #5664af;
     }
   }
 }
