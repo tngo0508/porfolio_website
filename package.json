@@ -1,0 +1,22 @@
+{
+  "name": "poforlio_website_loi_nguyen",
+  "version": "1.0.0",
+  "description": "Responsive porfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tngo0508/porfolio_website.git"
+  },
+  "author": "Thomas Ngo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tngo0508/porfolio_website/issues"
+  },
+  "homepage": "https://github.com/tngo0508/porfolio_website#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
