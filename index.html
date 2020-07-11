@@ -52,14 +52,25 @@
           <h1 class="lg-heading">
             Loi <span class="text-secondary">Nguyen</span>
           </h1>
-          <h2 class="sm-heading">
+          <!-- <h2 class="sm-heading">
             PhD Candidate, Graduate Student, Chemist at Princeton University
+          </h2> -->
+          <h2 class="sm-heading">
+            I am a <span class="animate"></span>at
+            <span class="school">Princeton University</span>
           </h2>
+
+          <h3>
+            (Click menu button on the top right corner to learn more about me)
+          </h3>
           <div class="icons">
-            <a href="#!" class="twitter-icon">
+            <a href="https://twitter.com/LoiTNguyen2" class="twitter-icon">
               <i class="fab fa-twitter fa-3x"></i>
             </a>
-            <a href="#!" class="facebook-icon">
+            <a
+              href="https://www.facebook.com/loi.nguyen.777158"
+              class="facebook-icon"
+            >
               <i class="fab fa-facebook-square fa-3x"></i>
             </a>
             <a
@@ -79,6 +90,23 @@
       </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="js/main.js"></script>
+    <script>
+      var typed = new Typed(".animate", {
+        strings: [
+          "Graduate Researcher",
+          "PhP Candidate",
+          "Chemistry Tutor",
+          "Math Tutor",
+          "Teaching Assistant",
+          "Chemist",
+        ],
+        smartBackspace: true,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 100,
+      });
+    </script>
   </body>
 </html>
