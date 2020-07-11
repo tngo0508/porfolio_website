@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #a0cf77;
+    background: #ec7221;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #add68a;
+    background: #ee8138;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -56,14 +56,14 @@
       height: 250px;
       background: url("../img/portrait_resize.jpg");
       border-radius: 50%;
-      border: solid 5px #f58d74; }
+      border: solid 5px #2973db; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #5664af; }
+      color: #2973db; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -71,11 +71,11 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #5664af; }
+      color: #2973db; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -123,11 +123,12 @@
   box-sizing: border-box; }
 
 body {
-  background: #add68a;
-  color: #5664af;
+  background: #ee8138;
+  color: #000;
   height: 100%;
   margin: 0;
-  font-family: "DM Serif Text", serif; }
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
@@ -140,7 +141,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(173, 214, 138, 0.87); }
+      background: rgba(238, 129, 56, 0.87); }
 
 h1,
 h2,
@@ -156,7 +157,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(178, 217, 146, 0.5); }
+    background: rgba(239, 135, 65, 0.5); }
 
 a {
   color: #444;
@@ -168,7 +169,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f58d74; }
+  color: #2973db; }
 
 main {
   padding: 4rem;
@@ -178,7 +179,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #f58d74;
+        color: #2973db;
         transition: all 0.5s ease-out; }
   main .twitter-icon {
     color: #1da1f2; }
@@ -192,3 +193,32 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-columns: repeat(3, 1fr); }
+
+.bio-image {
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 50%;
+  border: #2973db 3px solid; }
+
+.bio {
+  grid-area: bio; }
+
+.job-1 {
+  grid-area: job1; }
+
+.job-2 {
+  grid-area: job2; }
+
+.job-3 {
+  grid-area: job3; }
+
+.job {
+  background: #f0904f;
+  padding: 0.5rem;
+  border-bottom: #2973db 5px solid; }
