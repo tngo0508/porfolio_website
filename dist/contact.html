@@ -78,7 +78,7 @@
         </div>
 
         <div class="card card-body py-5">
-          <form action="POST" data-netlify="true">
+          <form id="my-form" action="POST" data-netlify="true">
             <div class="form-group">
               <div class="input-group iput-group-lg">
                 <div class="input-group-prepend">
@@ -127,7 +127,6 @@
                 type="file"
                 class="custom-file-input"
                 id="validatedCustomFile"
-                required
               />
               <label class="custom-file-label" for="validatedCustomFile"
                 >Upload file (optional) ...</label
@@ -138,12 +137,7 @@
             </div>
 
             <!-- Button trigger modal -->
-            <button
-              type="submit"
-              class="btn btn-info btn-block btn-lg"
-              data-toggle="modal"
-              data-target="#modal"
-            >
+            <button type="submit" class="btn btn-info btn-block btn-lg">
               Send Messages
             </button>
           </form>
@@ -228,6 +222,13 @@
           .addClass("selected")
           .html(fileName);
       });
+
+      // $("#myform").submit(function (e) {
+      //   e.preventDefault();
+
+      //   // do ajax now
+      //   console.log("submitted");
+      // });
     </script>
 
     <script src="js/main.js"></script>
