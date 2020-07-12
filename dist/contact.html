@@ -139,7 +139,7 @@
 
             <!-- Button trigger modal -->
             <button
-              type="button"
+              type="submit"
               class="btn btn-info btn-block btn-lg"
               data-toggle="modal"
               data-target="#modal"
@@ -165,7 +165,9 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="successModalLabel">Thank you</h5>
+            <h5 class="modal-title text-secondary" id="successModalLabel">
+              Thank you
+            </h5>
             <button
               type="button"
               class="close"
@@ -176,8 +178,10 @@
             </button>
           </div>
           <div class="modal-body">
-            Your message has been sent! Give me some time, I will get back to
-            you ASAP
+            <span class="text-success"
+              >Your message has been sent! Give me some time, I will get back to
+              you ASAP</span
+            >
           </div>
           <div class="modal-footer">
             <button
