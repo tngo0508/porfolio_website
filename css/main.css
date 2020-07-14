@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/portrait_resize.jpg");
       border-radius: 50%;
-      border: solid 5px #ffffffef; }
+      border: solid 5px #fff; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #ffffffef; }
+      color: #fff; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #ffffffef; }
+      color: #fff; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -178,7 +178,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #ffffffef; }
+  color: #fff; }
 
 main {
   padding: 4rem;
@@ -188,7 +188,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #ffffffef;
+        color: #fff;
         transition: all 0.5s ease-out; }
   main .twitter-icon {
     color: #206fa0; }
@@ -213,7 +213,7 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #ffffffef 3px solid; }
+  border: #fff 3px solid; }
 
 .bio {
   grid-area: bio; }
@@ -230,7 +230,7 @@ main {
 .job {
   background: #f0904f;
   padding: 0.5rem;
-  border-bottom: #ffffffef 5px solid; }
+  border-bottom: #fff 5px solid; }
 
 .research {
   display: grid;
@@ -241,7 +241,7 @@ main {
     border: 3px #fff solid; }
     .research img:hover {
       opacity: 0.5;
-      border-color: #ffffffef;
+      border-color: #fff;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -259,7 +259,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #ffffffef;
+      background: #206fa0;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
