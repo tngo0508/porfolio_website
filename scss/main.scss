@@ -70,6 +70,12 @@ body {
     // color: #f1f1f1;
     // width: 100%;
     padding: 0px;
+    display: flex;
+    align-items: center;
+    img {
+      width: auto;
+      height: fit-content;
+    }
   }
 }
 
