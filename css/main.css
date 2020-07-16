@@ -150,7 +150,12 @@ body {
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0);
-    padding: 0px; }
+    padding: 0px;
+    display: flex;
+    align-items: center; }
+    .showcase .content img {
+      width: auto;
+      height: fit-content; }
 
 h1,
 h2,
